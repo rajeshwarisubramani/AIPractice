@@ -34,20 +34,21 @@ streamlit run week4/libApp/app.py
     •	Member ID typed → find_member() → check status == "active"
     •	Book title typed → filter books where available_copies > 0 and title matches
     o	User clicks "Borrow" button invoke borrow_book() [appHelper.py]
-    o	Validations 
-    1. find_book()          → exists?
-    2. find_member()        → exists?
-    3. member.status        → "active"?
-    4. get_open_member_borrows() → count < 3?
-    5. book.available_copies → > 0?
-    6. get_active_borrow()  → not already borrowed this book?
-                            All pass → create transaction record
-                book["available_copies"] -= 1
-                if available_copies == 0 → book["status"] = "unavailable"
-                update/insert member_books link  
-    save_all() → writes all 4 JSON files to disk         
+    o	Validations
+  	
+        1. find_book()          → exists?
+        2. find_member()        → exists?
+        3. member.status        → "active"?
+        4. get_open_member_borrows() → count < 3?
+        5. book.available_copies → > 0?
+        6. get_active_borrow()  → not already borrowed this book?
+                                All pass → create transaction record
+                    book["available_copies"] -= 1
+                    if available_copies == 0 → book["status"] = "unavailable"
+                    update/insert member_books link  
+        save_all() → writes all 4 JSON files to disk         
             
-2)	UI (tab_return)
+3)	UI (tab_return)
 
     User enters borrow Transaction ID → clicks "Return Book"
         return_book() [appHelper.py]
