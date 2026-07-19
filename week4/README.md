@@ -69,7 +69,7 @@ Insert book with existing ISBN – should throw error
 
 Add Book with correct data:
 
-![](week4/libApp/add2.png?raw=true)
+![](week4/libApp/output/add2.png?raw=true)
  
 <h1>Register Member:</h1>
 
