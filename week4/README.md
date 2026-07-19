@@ -30,24 +30,25 @@ streamlit run week4/libApp/app.py
 •	Workflows
 
 1)	UI (tab_quick_borrow)
-•	Member ID typed → find_member() → check status == "active"
-•	Book title typed → filter books where available_copies > 0 and title matches
-o	User clicks "Borrow" button invoke borrow_book() [appHelper.py]
-o	Validations 
-1. find_book()          → exists?
-2. find_member()        → exists?
-3. member.status        → "active"?
-4. get_open_member_borrows() → count < 3?
-5. book.available_copies → > 0?
-6. get_active_borrow()  → not already borrowed this book?
-                        All pass → create transaction record
-            book["available_copies"] -= 1
-            if available_copies == 0 → book["status"] = "unavailable"
-            update/insert member_books link  
-save_all() → writes all 4 JSON files to disk         
+
+    •	Member ID typed → find_member() → check status == "active"
+    •	Book title typed → filter books where available_copies > 0 and title matches
+    o	User clicks "Borrow" button invoke borrow_book() [appHelper.py]
+    o	Validations 
+    1. find_book()          → exists?
+    2. find_member()        → exists?
+    3. member.status        → "active"?
+    4. get_open_member_borrows() → count < 3?
+    5. book.available_copies → > 0?
+    6. get_active_borrow()  → not already borrowed this book?
+                            All pass → create transaction record
+                book["available_copies"] -= 1
+                if available_copies == 0 → book["status"] = "unavailable"
+                update/insert member_books link  
+    save_all() → writes all 4 JSON files to disk         
             
 2)	UI (tab_return)
-    
+
     User enters borrow Transaction ID → clicks "Return Book"
         return_book() [appHelper.py]
             
@@ -63,14 +64,16 @@ save_all() → writes all 4 JSON files to disk
 
 
 <h1>Output</h1>
+
+
 Add Book
 Insert book with existing ISBN – should throw error
 
-![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add1.png?raw=true)
+![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add1.png?raw=true)
 
 Add Book with correct data:
 
-![](week4/libApp/output/add2.png?raw=true)
+![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add2.png?raw=true)
  
 <h1>Register Member:</h1>
 
@@ -80,35 +83,49 @@ A member with e-mail {email_id} is already registered.
  ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add3.png?raw=true)
  
 <h3>Register member with correct data</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add4.png?raw=true)
+
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add4.png?raw=true)
+
 <h3>Borrow Books :</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add5.png?raw=true)
+
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add5.png?raw=true)
+
 <h3>Return Book :</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add6.png?raw=true)
  
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add7.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add6.png?raw=true)
  
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add8.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add7.png?raw=true)
+ 
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add8.png?raw=true)
+
 <h3>Returning overdue book:</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add9.png?raw=true)
+
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add9.png?raw=true)
  
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add10.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add10.png?raw=true)
  
 
 
 
 <h3>Display Member details</h3>
-  ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add11.png?raw=true)
+
+  ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add11.png?raw=true)
+
 <h3>Reports:</h3>
 <h3>Dashboard </h3>
 <h3>All Active borrowed Books</h3>
   
-![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add12.png?raw=true)
+![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add12.png?raw=true)
 
 <h3>Genre Popularity, Top Borrowed Books</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add13.png?raw=true)
+ 
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add13.png?raw=true)
+
 <h3>Full Transaction History</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add14.png?raw=true)
+
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add14.png?raw=true)
+
 <h3>Book Inventory</h3>
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add15.png?raw=true)
+
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add15.png?raw=true)
   
