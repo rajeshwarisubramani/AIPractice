@@ -66,7 +66,9 @@ save_all() → writes all 4 JSON files to disk
 Add Book
 Insert book with existing ISBN – should throw error
 ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add1.png?raw=true)
+
 Add Book with correct data:
+
 ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add2.png?raw=true)
  
 <h1>Register Member:</h1>
