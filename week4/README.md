@@ -69,7 +69,7 @@ Insert book with existing ISBN – should throw error
 
 Add Book with correct data:
 
-![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add2.png?raw=true)
+![](week4/libApp/add2.png?raw=true)
  
 <h1>Register Member:</h1>
 
