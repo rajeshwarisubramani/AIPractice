@@ -1,0 +1,12 @@
+[
+  {
+    "transaction_id": "T00001",
+    "member_id": "M0001",
+    "book_id": "B0001",
+    "borrow_date": "2026-07-19",
+    "due_date": "2026-08-03",
+    "return_date": null,
+    "status": "borrowed",
+    "max_borrow_days": 15
+  }
+]
