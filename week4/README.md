@@ -65,41 +65,41 @@ save_all() → writes all 4 JSON files to disk
 <h1>Output</h1>
 Add Book
 Insert book with existing ISBN – should throw error
- ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add1.png)
+![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add1.png?raw=true)
 Add Book with correct data:
- ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add2.png)
+![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add2.png?raw=true)
  
 <h1>Register Member:</h1>
 
 <h3>Add  member with existing email ID : below error is thrown </h3>
 A member with e-mail {email_id} is already registered.
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add3.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add3.png?raw=true)
 <h3>Register member with correct data</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add4.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add4.png?raw=true)
 <h3>Borrow Books :</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add5.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add5.png?raw=true)
 <h3>Return Book :</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add6.png)
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add7.png)
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add8.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add6.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add7.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add8.png?raw=true)
 <h3>Returning overdue book:</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add9.png)
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add10.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add9.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add10.png?raw=true)
 
 
 
 <h3>Display Member details</h3>
-   ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add11.png)
+  ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add11.png?raw=true)
 <h3>Reports:</h3>
 <h3>Dashboard </h3>
 <h3>All Active borrowed Books</h3>
   
-![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add12.png)
+![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add12.png?raw=true)
 
 <h3>Genre Popularity, Top Borrowed Books</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add13.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add13.png?raw=true)
 <h3>Full Transaction History</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add14.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add14.png?raw=true)
 <h3>Book Inventory</h3>
-  ![image info](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add15.png)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add15.png?raw=true)
   
