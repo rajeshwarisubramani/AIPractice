@@ -75,7 +75,7 @@ Add Book with correct data:
 
 <h3>Add  member with existing email ID : below error is thrown </h3>
 A member with e-mail {email_id} is already registered.
- ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add3.png?raw=true)
+ ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/output/add3.png?raw=true)
 <h3>Register member with correct data</h3>
  ![](https://github.com/rajeshwarisubramani/AIPractice/blob/practice1/week4/libApp/add4.png?raw=true)
 <h3>Borrow Books :</h3>
